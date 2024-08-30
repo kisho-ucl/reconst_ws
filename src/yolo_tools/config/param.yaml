@@ -1,0 +1,10 @@
+/**:
+  ros__parameters:
+    image_scale: 0.25
+    do_publish_image: True
+    frame_id: "camera_color_frame"
+    pub_interval: 0.25
+    yolo:
+      model_path: "/home/aichi2204/ros2_ws/src/tool/yolo_tools/yolo_tools/yolov8n-seg.pt"
+      classes: [0]
+      # device: "cuda" 

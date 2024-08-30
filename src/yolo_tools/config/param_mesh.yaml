@@ -1,0 +1,11 @@
+/**:
+  ros__parameters:
+    image_scale: 1.0
+    frame_id_ground: "map" #"camera_depth_optical_frame" #default: "map"
+    frame_id_depth: "camera_color_optical_frame"  #default: "camera_depth_optical_frame"
+    depth_range_max: 0.4 #0.55 #0.45 #0.55  #[m]
+    is_display_open3d: False
+    marker_ns: "marker"
+    TSDF:
+      voxel_length: 0.001 #0.0008 #0.0008 #0.0012 #0.005 #0.01 #0.01 #0.0025 #0.03  #default: 4/512 = 0.0078125
+      sdf_trunc: 0.02 #0.04 #0.08 #0.04 #0.5  #default: 0.04
